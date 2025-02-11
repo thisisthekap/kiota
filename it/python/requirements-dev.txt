@@ -2,17 +2,17 @@
 
 astroid==3.3.8 ; python_full_version >= '3.7.2'
 
-certifi==2024.12.14 ; python_version >= '3.6'
+certifi==2025.1.31 ; python_version >= '3.6'
 
 charset-normalizer==3.4.1 ; python_full_version >= '3.7.0'
 
 colorama==0.4.6 ; sys_platform == 'win32'
 
-dill==0.3.6 ; python_version < '3.11'
+dill==0.3.9 ; python_version < '3.11'
 
 docutils==0.21.2 ; python_version >= '3.7'
 
-exceptiongroup==1.1.1 ; python_version < '3.11'
+exceptiongroup==1.2.2 ; python_version < '3.11'
 
 flit==3.10.1
 
@@ -24,13 +24,13 @@ importlib-metadata==6.8.0 ; python_version >= '3.7'
 
 iniconfig==2.0.0 ; python_version >= '3.7'
 
-isort==5.13.2
+isort==6.0.0
 
 lazy-object-proxy==1.10.0 ; python_version >= '3.7'
 
 mccabe==0.7.0 ; python_version >= '3.6'
 
-mypy==1.14.1
+mypy==1.15.0
 
 mypy-extensions==1.0.0 ; python_version >= '3.5'
 
@@ -40,19 +40,19 @@ platformdirs==4.3.6 ; python_version >= '3.7'
 
 pluggy==1.5.0 ; python_version >= '3.7'
 
-pylint==3.3.3
+pylint==3.3.4
 
 pytest==8.3.4
 
-pytest-asyncio==0.25.1
+pytest-asyncio==0.25.3
 
 requests==2.32.3 ; python_version >= '3.7'
 
 toml==0.10.2
 
-tomli==2.0.1 ; python_version < '3.11'
+tomli==2.2.1 ; python_version < '3.11'
 
-tomli-w==1.1.0 ; python_version >= '3.7'
+tomli-w==1.2.0 ; python_version >= '3.7'
 
 tomlkit==0.13.2 ; python_version >= '3.7'
 
@@ -60,21 +60,21 @@ typing-extensions==4.12.2 ; python_version >= '3.7'
 
 urllib3==2.3.0 ; python_version >= '3.7'
 
-wrapt==1.15.0 ; python_version < '3.11'
+wrapt==1.17.2 ; python_version < '3.11'
 
 yapf==0.43.0
 
 zipp==3.21.0 ; python_version >= '3.7'
 
-aiohttp==3.11.11 ; python_version >= '3.6'
+aiohttp==3.11.12 ; python_version >= '3.6'
 
 aiosignal==1.3.2 ; python_version >= '3.7'
 
-anyio==4.7.0 ; python_version >= '3.7'
+anyio==4.8.0 ; python_version >= '3.7'
 
 async-timeout==5.0.1 ; python_version >= '3.6'
 
-attrs==24.3.0 ; python_version >= '3.7'
+attrs==25.1.0 ; python_version >= '3.7'
 
 azure-core==1.32.0 ; python_version >= '3.7'
 
@@ -88,29 +88,29 @@ frozenlist==1.5.0 ; python_version >= '3.7'
 
 h11==0.14.0 ; python_version >= '3.7'
 
-h2==4.1.0
+h2==4.2.0
 
-hpack==4.0.0 ; python_full_version >= '3.6.1'
+hpack==4.1.0 ; python_full_version >= '3.6.1'
 
 httpcore==1.0.7 ; python_version >= '3.7'
 
 httpx[http2]==0.28.1
 
-hyperframe==6.0.1 ; python_full_version >= '3.6.1'
+hyperframe==6.1.0 ; python_full_version >= '3.6.1'
 
-microsoft-kiota-abstractions==1.6.7
+microsoft-kiota-abstractions==1.9.2
 
-microsoft-kiota-authentication-azure==1.6.7
+microsoft-kiota-authentication-azure==1.9.2
 
-microsoft-kiota-http==1.6.7
+microsoft-kiota-http==1.9.2
 
-microsoft-kiota-serialization-json==1.6.7
+microsoft-kiota-serialization-json==1.9.2
 
-microsoft-kiota-serialization-text==1.6.7
+microsoft-kiota-serialization-text==1.9.2
 
-microsoft-kiota-serialization-form==1.6.7
+microsoft-kiota-serialization-form==1.9.2
 
-microsoft-kiota-serialization-multipart==1.6.7
+microsoft-kiota-serialization-multipart==1.9.2
 
 msal==1.31.1
 

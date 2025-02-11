@@ -40,8 +40,8 @@ export class RegenerateService {
         this._clientKey,
         clientObjectItem.clientNamespaceName,
         clientObjectItem.usesBackingStore ? clientObjectItem.usesBackingStore : settings.backingStore,
-        true, // clearCache
-        true, // cleanOutput
+        settings.clearCache,
+        settings.cleanOutput,
         clientObjectItem.excludeBackwardCompatible ? clientObjectItem.excludeBackwardCompatible : settings.excludeBackwardCompatible,
         clientObjectItem.disabledValidationRules ? clientObjectItem.disabledValidationRules : settings.disableValidationRules,
         settings.languagesSerializationConfiguration[language].serializers,
@@ -83,7 +83,9 @@ export class RegenerateService {
         settings.clearCache,
         false,
         settings.disableValidationRules,
-        ConsumerOperation.Edit
+        ConsumerOperation.Edit,
+        pluginObjectItem.authType ? pluginObjectItem.authType : null,
+        pluginObjectItem.authReferenceId ? pluginObjectItem.authReferenceId : '',
       );
       const duration = performance.now() - start;
       const errorsCount = result ? getLogEntriesForLevel(result, LogLevel.critical, LogLevel.error).length : 0;
